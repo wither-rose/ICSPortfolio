@@ -1,0 +1,15 @@
+.nav{
+    background-color: #6F61C0;
+    overflow: hidden;
+}
+
+.nav a:hover{
+    background-color: #A084E8;
+    color: white;
+}
+
+.nav a.active{
+    background-color: #D5FFE4;
+    color: black;
+
+}
