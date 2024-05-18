@@ -1,15 +1,52 @@
 .nav{
-    background-color: #6F61C0;
+    background-color: #8EC3B0;
     overflow: hidden;
+    border-style: groove;
 }
 
+.nav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+
 .nav a:hover{
-    background-color: #A084E8;
-    color: white;
+    background-color: #DEF5E5;
+    color: black;
 }
 
 .nav a.active{
-    background-color: #D5FFE4;
+    background-color: #9ED5C5;
     color: black;
+}
 
+.text{
+    background-color: #DEF5E5;
+    padding: 14px 16px;
+    font-size: 16px;
+}
+
+@font-face{
+    font-family: Montserrat;
+    src: url("fonts/Montserrat-VariableFont_wght.ttf")
+}
+
+a{
+    font-family: Montserrat;
+}
+
+h1{
+    font-family: Montserrat;
+}
+
+p {
+    font-family: Montserrat;
+}
+
+body{
+    background: #BCEAD5;
 }
